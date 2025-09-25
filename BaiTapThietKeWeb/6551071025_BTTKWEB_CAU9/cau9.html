@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CAU 9</title>
+        <link rel="stylesheet" href="Cau9.css">
+    </head>
+    <body>
+        <h1 class="title">Đăng ký du lịch</h1>
+        <table class="table" border="1">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" id="address" name="address"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="tel" name="tel" id="tel"></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td>
+                    <input type="checkbox" value="kvn" name="kvn">
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+        <select name="tour" id="tour">
+            <optgroup label="Miền Bắc">
+                <option value="HaNoi">Hà Nội</option>
+                <option value="HaGiang">Hà Giang</option>
+                <option value="Sapa">Sa Pa</option>
+            </optgroup>
+            <optgroup label="Miền Trung">
+                <option value="Hue">Huế</option>
+                <option value="DaNang">Đà Nẵng</option>
+                <option value="GiaLai">Gia Lai</option>
+                <option value="KonTum">Kon Tum</option>
+            </optgroup>
+            <optgroup label="Miền Nam">
+                <option value="BuonMeThuot">Buôn Mê Thuột</option>
+                <option value="TPHCM">TP. Hồ Chí Minh</option>
+                <option value="CanTho">Cần Thơ</option>
+                <option value="VungTau">Vũng Tàu</option>
+            </optgroup>
+        </select>
+    </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td><input type="radio" name="maybay" id="maybay">Máy Bay</td>
+                <td><input type="radio" name="oto" id="oto">Xe ô tô</td>
+
+            </tr>
+            <tr>
+                <td>Số lượng đoàn khách</td><br>
+                <td>Người lớn <input type="text" name="nguoilon">
+                Trẻ em <input type="text" name="treem">
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea name="note" rows="3" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" name="submit" value="Đồng ý">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>Bạn đã đăng ký thành công!!!</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
