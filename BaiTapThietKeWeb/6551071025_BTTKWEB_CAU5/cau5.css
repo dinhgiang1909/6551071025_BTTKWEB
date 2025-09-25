@@ -1,0 +1,19 @@
+.title{
+    color: rgb(218, 26, 26);
+    font-size: 30px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid red;
+    text-align: center;
+}
+.datlon{
+    background-color: rgb(218,26,26);
+    color: white;
+}
+.mau{
+    color: red
+}
+th, td {
+    border: 1px solid red;
+}

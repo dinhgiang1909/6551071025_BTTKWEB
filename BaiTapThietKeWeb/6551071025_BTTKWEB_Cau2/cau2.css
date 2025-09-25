@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    color: green;
+}
+
+.nuoc {
+    color: red;
+}
+
+.math {
+    color: red;
+}
+
+.code {
+    text-align: center;
+    background-color: lightgray;
+    color: blue;
+}

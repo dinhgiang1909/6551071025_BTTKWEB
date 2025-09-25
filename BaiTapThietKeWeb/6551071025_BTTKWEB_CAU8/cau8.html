@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Phiếu đăng ký</title>
+        <link rel="stylesheet" href="Cau8.css">
+    </head>
+    <body>
+        <h1 class="title">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <table class="table">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" id="address" name="address"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="tel" name="tel" id="tel"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td>
+                    <input type="radio" value="male" name="gender"> Nam 
+                    <input type="radio" value="female" name="gender"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <select name="career" id="career">
+                        <option value="Giáo viên">Giáo viên</option>
+                        <option value="Trộm">Trộm</option>
+                        <option value="Cướp ngân hàng">Cướp ngân hàng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>                    
+                    <select name="SanPham" id="SanPham" multiple>
+                        <option value="Kem đánh răng">Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội đầu">Dầu gội đầu</option>
+                        <option value="Sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td>
+                    <input type="number" id="number" name="soNguoi">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit" value="Đồng ý">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>Bạn đã đăng ký thành công!!!</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
